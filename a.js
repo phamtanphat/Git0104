@@ -13,3 +13,18 @@
 //Dang 4
 // const ti = {name :'Ti'}
 // console.log(ti.tuoi);
+// NaN : thực hiện toán tử undefined
+//Null : = 0
+// let a = null;
+// let b = 5;
+// console.log(a - b);
+let a = null;
+let b = 10;
+// 6 gia tri tra ve false :undefined , NaN , false , '' , 0 , null
+if(a){
+    console.log("a nho hon b");
+}else{
+    console.log("a lon hon b");
+
+}
+

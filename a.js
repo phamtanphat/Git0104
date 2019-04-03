@@ -34,10 +34,22 @@
 // console.log(Math.ceil(a));
 // console.log(Math.floor(a));
 // console.log(Math.floor(Math.random() * ( 3 + 1))); 
-var a = 10;
-var b = 20;
-var c = 0
+// var a = 10;
+// var b = 20;
+// var c = 0
 // console.log((a + b,b));
-console.log(c = a +b);
+// console.log(c = a +b);
+
+// Chuyen du lieu chuoi sang so
+// var a = "5";
+// var b = 6;
+// console.log( +b + +a);
+
+// try {
+//     var a;
+//     console.log(a.x);
+// } catch (error) {
+//     console.log(error);
+// }
 
 

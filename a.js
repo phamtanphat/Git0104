@@ -29,10 +29,15 @@
 // var a = null;
 // console.log(typeof(a));
 //built in function
-var a = 5.2;
+// var a = 5.2;
 // console.log(Math.round(a));
 // console.log(Math.ceil(a));
 // console.log(Math.floor(a));
-console.log(Math.random());
+// console.log(Math.floor(Math.random() * ( 3 + 1))); 
+var a = 10;
+var b = 20;
+var c = 0
+// console.log((a + b,b));
+console.log(c = a +b);
 
 

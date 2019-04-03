@@ -20,4 +20,12 @@ function sochinhphuong(){
         if(Math.sqrt(i) % 1 == 0) console.log(i);
     }
 }
-sochinhphuong();
+function tinhtoan(fn){
+    for(let i = 0 ; i<= 100 ; i++){
+        const dk = fn(i)
+        if(dk) console.log(i);
+    }
+}
+tinhtoan(function(i){
+    return Math.sqrt(i) % 1 == 0
+});

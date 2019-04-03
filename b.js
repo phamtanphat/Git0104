@@ -36,15 +36,27 @@
 // ti.sayhello();
 // const teo = new Person("Nguyen Van Teo", 40);
 // teo.sayhello();
-class Point{
-    constructor(x , y){
-        this.x = x;
-        this.y = y;
-    }
-    getDistance(){
-        return Math.sqrt(this.x * this.x + this.y * this.y);
-    }
-}
+// class Point{
+//     constructor(x , y){
+//         this.x = x;
+//         this.y = y;
+//     }
+//     getDistance(){
+//         return Math.sqrt(this.x * this.x + this.y * this.y);
+//     }
+// }
 
-const a = new Point(10 , 5);
-console.log(a.getDistance());
+// const a = new Point(10 , 5);
+// console.log(a.getDistance());
+
+function doSth(fn){
+    fn(1 , 1);
+}
+// console.log();
+// doSth(function(x , y){
+//     console.log(x);
+// });
+doSth(function(a) {return console.log(a)});
+// (function show(){
+//     console.log("aaaa");
+// })()

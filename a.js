@@ -18,13 +18,21 @@
 // let a = null;
 // let b = 5;
 // console.log(a - b);
-let a = null;
-let b = 10;
-// 6 gia tri tra ve false :undefined , NaN , false , '' , 0 , null
-if(a){
-    console.log("a nho hon b");
-}else{
-    console.log("a lon hon b");
+// let a = -1;
+// let b = 10;
+// // 6 gia tri tra ve false :undefined , NaN , false , '' , 0 , null
+// if(a){
+//     console.log("a nho hon b");
+// }else{
+//     console.log("a lon hon b");
+// }
+// var a = null;
+// console.log(typeof(a));
+//built in function
+var a = 5.2;
+// console.log(Math.round(a));
+// console.log(Math.ceil(a));
+// console.log(Math.floor(a));
+console.log(Math.random());
 
-}
 

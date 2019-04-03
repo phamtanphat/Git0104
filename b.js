@@ -49,16 +49,22 @@
 // const a = new Point(10 , 5);
 // console.log(a.getDistance());
 
-function doSth(fn){
-    fn();
-}
+// function doSth(fn){
+//     fn();
+// }
 // console.log();
 // doSth(function(x , y){
 //     console.log(x);
 // });
 // doSth(function(a , b) {return console.log(a , b)});
 // doSth((a , b) => console.log(a,b))
-doSth(() => console.log(1));
+// doSth(() => console.log(1));
 // (function show(){
 //     console.log("aaaa");
 // })()
+
+// function return function
+// function dosth(){
+//     return console.log
+// }
+// dosth()()

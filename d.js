@@ -7,8 +7,11 @@ const persons = [
     {name : 'Hoa' , age : 11 , height : 100},
 ]
 
-const index = persons.findIndex(person => person.name == 'Tun');
-console.log(index);
+// const index = persons.findIndex(person => person.name == 'Tun');
+// const value = numbers.find(number => number == 10);
+// const value = numbers.some(number => number > 8);
+const value = numbers.every(number => number > 1);
+console.log(value);
    
 // console.log(arr);
  //  const arr = numbers.map(number =>  number * number);

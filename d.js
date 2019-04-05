@@ -10,7 +10,8 @@ const persons = [
 // const index = persons.findIndex(person => person.name == 'Tun');
 // const value = numbers.find(number => number == 10);
 // const value = numbers.some(number => number > 8);
-const value = numbers.every(number => number > 1);
+// const value = numbers.every(number => number > 1);
+const value = persons.map(person => person.age).reduce((a,b) => a + b);
 console.log(value);
    
 // console.log(arr);

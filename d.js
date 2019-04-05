@@ -6,3 +6,8 @@ const persons = [
     {name : 'Tun' , age : 14 , height : 130},
     {name : 'Hoa' , age : 11 , height : 100},
 ]
+
+const arr = numbers.map(number =>  number * number);
+// for(let i = 0 ; i <numbers.length ; i++) arr.push(i * i);
+console.log(arr);
+console.log(numbers);

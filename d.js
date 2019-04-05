@@ -8,6 +8,6 @@ const persons = [
 ]
 
 const arr = numbers.map(number =>  number * number);
-// for(let i = 0 ; i <numbers.length ; i++) arr.push(i * i);
+// for(let i = 0 ; i <numbers.length ; i++) arr.push(numbers[i] * numbers[i]);
 console.log(arr);
-console.log(numbers);
+// console.log(numbers);

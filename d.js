@@ -11,8 +11,8 @@ const persons = [
 // const value = numbers.find(number => number == 10);
 // const value = numbers.some(number => number > 8);
 // const value = numbers.every(number => number > 1);
-const value = persons.map(person => person.age).reduce((a,b) => a + b);
-console.log(value);
+// const value = persons.map(person => person.age).reduce((a,b) => a + b);
+// console.log(value);
    
 // console.log(arr);
  //  const arr = numbers.map(number =>  number * number);

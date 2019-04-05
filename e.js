@@ -14,4 +14,5 @@ class Child extends Person{
     }
 }
 const teo = new Child("Nguyen Van teo",20 ,120);
-console.log(teo);
+const ti = teo.sayhello;
+ti.bind({name : "a"})();

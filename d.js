@@ -16,13 +16,21 @@ const persons = [
 // const arr = numbers.filter(number => number > 1);
 // console.log(arr);
 
-Array.prototype.mymap = function(fn){
+// Array.prototype.mymap = function(fn){
+    // const arr = [];
+    // for(let i = 0 ; i < this.length ; i++){
+    //     const element = this[i];
+    //     arr.push(fn(element));
+    // }
+    // return arr;
+// }
+Array.prototype.myfilter = function(fn){
     const arr = [];
     for(let i = 0 ; i < this.length ; i++){
         const element = this[i];
-        arr.push(fn(element));
+        if(fn(element)) arr.push(element);
     }
     return arr;
 }
-const arr = numbers.mymap(number => number);
+const arr = numbers.myfilter(number => number > 1);
 console.log(arr);

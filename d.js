@@ -7,30 +7,33 @@ const persons = [
     {name : 'Hoa' , age : 11 , height : 100},
 ]
 
-//  const arr = numbers.map(number =>  number * number);
-// for(let i = 0 ; i <numbers.length ; i++) arr.push(numbers[i] * numbers[i]);
+const index = persons.findIndex(person => person.name == 'Tun');
+console.log(index);
+   
 // console.log(arr);
-// console.log(numbers);
-// const arr = persons.map(person => person.age);
-//  console.log(arr);
-// const arr = numbers.filter(number => number > 1);
-// console.log(arr);
+ //  const arr = numbers.map(number =>  number * number);
+    // for(let i = 0 ; i <numbers.length ; i++) arr.push(numbers[i] * numbers[i]);
+    // console.log(arr);
+    // console.log(numbers);
+    // const arr = persons.map(person => person.age);
+    //  console.log(arr);
+    // const arr = numbers.filter(number => number > 1);
+    // console.log(arr);
 
-// Array.prototype.mymap = function(fn){
-    // const arr = [];
-    // for(let i = 0 ; i < this.length ; i++){
-    //     const element = this[i];
-    //     arr.push(fn(element));
+    // Array.prototype.mymap = function(fn){
+        // const arr = [];
+        // for(let i = 0 ; i < this.length ; i++){
+        //     const element = this[i];
+        //     arr.push(fn(element));
+        // }
+        // return arr;
     // }
-    // return arr;
-// }
-Array.prototype.myfilter = function(fn){
-    const arr = [];
-    for(let i = 0 ; i < this.length ; i++){
-        const element = this[i];
-        if(fn(element)) arr.push(element);
-    }
-    return arr;
-}
-const arr = numbers.myfilter(number => number > 1);
-console.log(arr);
+    // Array.prototype.myfilter = function(fn){
+    //     const arr = [];
+    //     for(let i = 0 ; i < this.length ; i++){
+    //         const element = this[i];
+    //         if(fn(element)) arr.push(element);
+    //     }
+    //     return arr;
+    // }
+// const arr = numbers.myfilter(number => number > 1);
